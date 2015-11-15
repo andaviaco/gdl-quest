@@ -1,5 +1,7 @@
 'use strict';
 
 import React from 'react';
+import { render } from 'react-dom';
+import Main from './components/Main.jsx';
 
-React.render(<div>Hellow world</div>, document.getElementById("app-main"));
+render(<Main />, document.getElementById("app-main"));
