@@ -43,7 +43,7 @@ gulp.task('modules', function() {
         .bundle()
         .pipe(source('main.js'))
         .pipe(buffer())
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('./public/js/build/'))
         .pipe( notify({
             title: 'Javascrict',
